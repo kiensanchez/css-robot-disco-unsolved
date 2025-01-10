@@ -1,41 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background-color: #21222c;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-/* 👇👇👇 Paste the styles of your Fancy Robot from the "Position it right" assignment here 👇👇👇 */
-
-.robot-container {
-}
-
-.robot-face-shape {
-}
-
-.robot-eye-left {
-}
-
-.robot-eye-right {
-}
-
-.robot-ear-left {
-}
-
-.robot-ear-right {
-}
-
-.robot-nose {
-}
-
-.robot-nose:before {
-}
-
-.robot-nose:after {
-}
-
-.robot-teeth {
-}
-
-.robot-tooth {
-}
-
-.robot-hair-style {
+.content-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 70%;
+  margin: 0 auto;
 }
